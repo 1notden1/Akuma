@@ -3,7 +3,7 @@ local Window = Library:CreateWindow("Akuma", Vector2.new(492, 598), Enum.KeyCode
 local AimingTab = Window:CreateTab("Combat") --you can rename this tab to whatever you want --you can also change the tabs code, for example "AimingTab" can be changed to "FunnyCoolTab" etc.
 
 
-local testSection = AimingTab:CreateSector("First Section", "left")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
+local testSection = AimingTab:CreateSector("Main", "left")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
 
 testSection:AddToggle("Toggle", false, function(first)
     print("ejejejejejeje")
@@ -43,3 +43,11 @@ AimingTab:CreateConfigSystem("right") --this is the config system
 
 
 local AimingTab = Window:CreateTab("Visuals")
+
+
+
+local AimingTab = Window:CreateTab("Misc")
+
+
+
+local AimingTab = Window:CreateTab("Settings")
